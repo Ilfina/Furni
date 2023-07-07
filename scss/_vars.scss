@@ -1,0 +1,67 @@
+:root {
+  //--Color
+  --body-color: #EFF2F1;
+  --container-color: #3B5D50;
+  --accent-color: #F9BF29;
+  --white-color: #fff;
+  --title-color: #2F2F2F;
+  --text-color: #6A6A6A;
+  --icon-color: #D9D9D9;
+  --swiper-button: #C4C4C4;
+  --black-color: #000;
+  --circle-color: rgba(53, 115, 110, 0.20);
+  --square-light: rgba(53, 115, 110, 0.10);
+  --assets-background: rgba(53, 115, 110, 0.30);
+
+  //--Font
+  --body-font: 'Inter', sans-serif;
+  --body-font-second: 'Urbanist', sans-serif;
+  --big-font: 2.75rem;
+  --title-font: 1.75rem;
+  --logo-font: 1.5rem;
+  --middle-font: 1rem;
+  --normal-font: .935rem;
+  --text-font: .815rem;
+  --small-font: .75rem;
+
+}
+
+@media screen and (min-width: 1120px) {
+  :root {
+    --big-font: 3.25rem;
+    --title-font: 2.15rem;
+    --middle-text: 1.25rem;
+    --normal-font: 1rem;
+    --text-font: .935rem;
+    --small-font: .815rem;
+  }
+}
+
+.title {
+  font-size: var(--title-font);
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+p {
+  color: var(--text-color);
+  font-size: var(--text-font);
+  line-height: 1.3;
+  font-weight: 300;
+}
+
+.button {
+  display: inline-flex;
+  padding: 10px 28px;
+  background-color: var(--title-color);
+  color: var(--white-color);
+  font-size: var(--normal-font);
+  font-weight: 300;
+  border-radius: 1.75rem;
+  box-shadow: 0 2px 10px hsl(156, 22%, 30%);
+  cursor: pointer;
+  transition: box-shadow .5s ease;
+  &:hover {
+    box-shadow: none;
+  }
+}

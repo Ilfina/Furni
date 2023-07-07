@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furni</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Remix Icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!--=============== HEADER ==================-->
+  <header class="header">
+    <nav class="nav container">
+
+      <a href="#" class="nav-logo">Furni<span>.</span></a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <!-- Drop -->
+          <li class="nav-item dropdown-item" id="dropdown">
+            <a href="#blog" class="nav-link dropdown">
+              Blog<i class="ri-arrow-down-s-line dropdown-arrow"></i>
+            </a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#materials" class="dropdown-link">
+                  <i class="ri-links-line"></i>Materials
+                </a>
+              </li>
+
+              <li>
+                <a href="#blog" class="dropdown-link">
+                  <i class="ri-presentation-line"></i>View All Posts
+                </a>
+              </li>
+
+              <li>
+                <a href="#blog" class="dropdown-link">
+                  <i class="ri-home-heart-line"></i>New Ideas
+                </a>
+              </li>
+            </ul>
+
+          </li>
+
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+
+        <!-- Close Button -->
+        <div class="nav-close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+
+      </div>
+      <!-- Toggle Button -->
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="ri-function-line"></i>
+      </div>
+
+    </nav>
+  </header>
+  <!--================= MAIN ==================-->
+  <main class="main">
+    <!--================ HOME ==================-->
+    <section class="home" id="home">
+      <div class="home-container container grid">
+        
+        <div class="home-content">
+
+          <h1 class="home-title">
+            Modern Interior <br>Design Studio
+          </h1>
+
+          <div class="home-button">
+            <a href="#" class="home-button-link active-btn" id="btn-One">Shop Now</a>
+            <a href="#" class="home-button-link" id="btn-Two">Explore</a>
+          </div>
+        </div>
+
+        <div class="home-images grid">
+          <div class="home-images-profil">
+            <img src="images/home-sofa.png" alt="sofa" class="home-img">
+          </div>
+
+          <img src="images/green-dots.svg" alt="green-dots" class="home-green-dots">
+        </div>
+
+      </div>
+
+    </section>
+    <!--============== MATERIALS ================-->
+    <section class="materials" id="materials">
+      <div class="materials-container container grid">
+
+        <div class="materials-content">
+          <h3 class="materials-title title">
+            Crafted with<br>excellent<br>material.
+          </h3>
+          <p class="materials-description">
+            Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done.
+          </p>
+          <a href="#" class="material-button button">Explore</a>
+        </div>
+
+        <div class="materials-chair grid">
+          <!-- Card 1 -->
+          <div class="materials-card grid">
+            <img src="images/materials-chiar1.png" alt="chair" class="materials-img">
+            <div class="materials-data">
+              <span class="materials-name">Nordic Chair</span>
+              <span class="materials-price">$50.00</span>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="materials-card grid">
+            <img src="images/materials-chiar2.png" alt="chair" class="materials-img">
+            <div class="materials-data">
+              <span class="materials-name">Kruzo Aero Chair</span>
+              <span class="materials-price">$78.00</span>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="materials-card grid">
+            <img src="images/materials-chiar3.png" alt="chair" class="materials-img">
+            <div class="materials-data">
+              <span class="materials-name">Ergonomic Chair</span>
+              <span class="materials-price">$43.00</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!--=============== CHOOSE ==================-->
+    <section class="choose" id="services">
+      <div class="choose-container container grid">
+
+        <div class="choose-content">
+          <h3 class="choose-title title">Why Choose Us</h3>
+          <p class="choose-description">
+            Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done. the
+          </p>
+
+          <div class="choose-cards grid">
+            <!-- Card 1 -->
+            <div class="choose-card">
+              <div class="choose-card-icon">
+                <i class="ri-truck-line"></i>
+              </div>
+
+              <h5 class="choose-card-subtitle">Fast & Free Shipping </h5>
+
+              <p class="choose-card-description">
+                Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="choose-card">
+              <div class="choose-card-icon">
+                <i class="ri-shopping-bag-2-line"></i>
+              </div>
+
+              <h5 class="choose-card-subtitle">Easy to Shop</h5>
+
+              <p class="choose-card-description">
+                Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was
+              </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="choose-card">
+              <div class="choose-card-icon">
+                <i class="ri-football-line"></i>
+              </div>
+
+              <h5 class="choose-card-subtitle">24/7 Support</h5>
+
+              <p class="choose-card-description">
+                Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was
+              </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="choose-card">
+              <div class="choose-card-icon">
+                <i class="ri-repeat-line"></i>
+              </div>
+
+              <h5 class="choose-card-subtitle">Hassle Free Returns</h5>
+
+              <p class="choose-card-description">
+                Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was
+              </p>
+            </div>
+          
+          </div>
+        </div>
+
+        <div class="choose-images grid">
+          <div class="choose-image">
+            <img src="images/choose-sofa.png" alt="sofa" class="choose-img">
+          </div>
+          <img src="images/yellow-dots.svg" alt="yellow-dots" class="choose-yellow-dots">
+        </div>
+
+
+      </div>
+    </section>
+    <!--=============== ABOUT ===================-->
+    <section class="about" id="about">
+      <div class="about-container container grid">
+
+        <div class="about-conntent">
+          <h3 class="about-title title">We help  you make<br>Modern Interior Design</h3>
+          <p class="about-description">
+            Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done. the this is a long  post for the text.`This small text has to be place here, since this is a place holder. You can also chane it.
+          </p>
+
+          <div class="about-cards grid">
+            <!-- Card 1 -->
+            <div class="about-card">
+              <i class="ri-radio-button-fill"></i>
+              <p>
+                Donec mattis porta eros,let aliquet finibus ri
+              </p>
+            </div>
+
+            <!-- Card 2-->
+            <div class="about-card">
+              <i class="ri-radio-button-fill"></i>
+              <p>
+                Donec mattis porta eros,let aliquet finibus ri
+              </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="about-card">
+              <i class="ri-radio-button-fill"></i>
+              <p>
+                Donec mattis porta eros,let aliquet finibus ri
+              </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="about-card">
+              <i class="ri-radio-button-fill"></i>
+              <p>
+                Donec mattis porta eros,let aliquet finibus ri
+              </p>
+            </div>
+          </div>
+
+          <a href="#" class="about-button button">Explore</a>
+
+        </div>
+
+        <div class="about-images grid">
+          <img src="images/about-green-dots.svg" alt="green-dots" class="about-green-dots">
+
+          <div class="about-gallery grid">
+            <img src="images/about-gallery1.png" alt="furniture" class="about-img about-gallery-sofa">
+            <img src="images/about-gallery2.png" alt="furniture" class="about-img about-gallery-lamp">
+            <img src="images/about-gallery3.png" alt="furniture" class="about-img about-gallery-chair">
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!--================ LINIA ==================-->
+    <section class="linia">
+      <div class="linia-container container grid">
+
+        <!-- Card 1 -->
+        <div class="linia-card">
+          <div class="linia-card-image">
+            <img src="images/materials-chiar1.png" alt="chair" class="linia-img">
+            <div class="linia-square"></div>
+          </div>
+          
+          <div class="linia-card-data">
+            <h5 class="linia-title">Nordic Chair</h5>
+            <p class="linia-description">
+              Donec mattis porta eros, aliquet finibus risus in. Donecd 
+            </p>
+            <a href="#" class="linia-link">Read more</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="linia-card">
+          <div class="linia-card-image">
+            <img src="images/materials-chiar2.png" alt="chair" 
+            class="linia-img">
+            <div class="linia-square"></div>
+          </div>
+          
+          <div class="linia-card-data">
+            <h5 class="linia-title">Nordic Chair</h5>
+            <p class="linia-description">
+              Donec mattis porta eros, aliquet finibus risus in. Donecd 
+            </p>
+            <a href="#" class="linia-link">Read more</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="linia-card">
+          <div class="linia-card-image">
+            <img src="images/materials-chiar3.png" alt="chair" class="linia-img">
+            <div class="linia-square"></div>
+          </div>
+          
+          <div class="linia-card-data">
+            <h5 class="linia-title">Nordic Chair</h5>
+            <p class="linia-description">
+              Donec mattis porta eros, aliquet finibus risus in. Donecd 
+            </p>
+            <a href="#" class="linia-link">Read more</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!--============= TESTIMONIAL ===============-->
+    <section class="testimonial">
+      <div class="testimonial-container container">
+
+        <div class="testimonial-box mySwiper">
+
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="testimonial-card swiper-slide">
+
+              <div class="testimonial-content">
+                <div class="testimonial-text">
+                  ‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’
+                </div>
+
+                <div class="testimonial-person">
+                  <div class="testimonial-image">
+                    <img src="images/testimonial1.jpg" alt="girl" class="testimonial-img">
+                  </div>
+                  <div class="testimonial-data">
+                    <span class="testimonial-name">Michelle Anna</span>
+                    <span class="testimonial-prof">CEO, Co-Founder, XYZ Inc.</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Slide 2 -->
+            <div class="testimonial-card swiper-slide">
+
+              <div class="testimonial-content">
+                <div class="testimonial-text">
+                  ‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’
+                </div>
+
+                <div class="testimonial-person">
+                  <div class="testimonial-image">
+                    <img src="images/testimonial2.jpg" alt="girl" class="testimonial-img">
+                  </div>
+                  <div class="testimonial-data">
+                    <span class="testimonial-name">Michelle Anna</span>
+                    <span class="testimonial-prof">CEO, Co-Founder, XYZ Inc.</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Slide 3 -->
+            <div class="testimonial-card swiper-slide">
+
+              <div class="testimonial-content">
+                <div class="testimonial-text">
+                  ‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’
+                </div>
+
+                <div class="testimonial-person">
+                  <div class="testimonial-image">
+                    <img src="images/testimonial3.jpg" alt="girl" class="testimonial-img">
+                  </div>
+                  <div class="testimonial-data">
+                    <span class="testimonial-name">Michelle Anna</span>
+                    <span class="testimonial-prof">CEO, Co-Founder, XYZ Inc.</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Slide 4 -->
+            <div class="testimonial-card swiper-slide">
+
+              <div class="testimonial-content">
+                <div class="testimonial-text">
+                  ‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’
+                </div>
+
+                <div class="testimonial-person">
+                  <div class="testimonial-image">
+                    <img src="images/testimonial4.jpg" alt="girl" class="testimonial-img">
+                  </div>
+                  <div class="testimonial-data">
+                    <span class="testimonial-name">Michelle Anna</span>
+                    <span class="testimonial-prof">CEO, Co-Founder, XYZ Inc.</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Slide 5 -->
+            <div class="testimonial-card swiper-slide">
+
+              <div class="testimonial-content">
+                <div class="testimonial-text">
+                  ‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’
+                </div>
+
+                <div class="testimonial-person">
+                  <div class="testimonial-image">
+                    <img src="images/testimonial5.jpg" alt="girl" class="testimonial-img">
+                  </div>
+                  <div class="testimonial-data">
+                    <span class="testimonial-name">Michelle Anna</span>
+                    <span class="testimonial-prof">CEO, Co-Founder, XYZ Inc.</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Slide 6 -->
+            <div class="testimonial-card swiper-slide">
+
+              <div class="testimonial-content">
+                <div class="testimonial-text">
+                  ‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’
+                </div>
+
+                <div class="testimonial-person">
+                  <div class="testimonial-image">
+                    <img src="images/testimonial6.jpg" alt="girl" class="testimonial-img">
+                  </div>
+                  <div class="testimonial-data">
+                    <span class="testimonial-name">Michelle Anna</span>
+                    <span class="testimonial-prof">CEO, Co-Founder, XYZ Inc.</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Slide 7 -->
+            <div class="testimonial-card swiper-slide">
+
+              <div class="testimonial-content">
+                <div class="testimonial-text">
+                  ‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’
+                </div>
+
+                <div class="testimonial-person">
+                  <div class="testimonial-image">
+                    <img src="images/testimonial7.jpg" alt="girl" class="testimonial-img">
+                  </div>
+                  <div class="testimonial-data">
+                    <span class="testimonial-name">Michelle Anna</span>
+                    <span class="testimonial-prof">CEO, Co-Founder, XYZ Inc.</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Slide 8 -->
+            <div class="testimonial-card swiper-slide">
+
+              <div class="testimonial-content">
+                <div class="testimonial-text">
+                  ‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’
+                </div>
+
+                <div class="testimonial-person">
+                  <div class="testimonial-image">
+                    <img src="images/testimonial8.jpg" alt="girl" class="testimonial-img">
+                  </div>
+                  <div class="testimonial-data">
+                    <span class="testimonial-name">Michelle Anna</span>
+                    <span class="testimonial-prof">CEO, Co-Founder, XYZ Inc.</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Buttons Arrow-->
+          <div class="swiper-button-next">
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="ri-arrow-left-s-line"></i>
+          </div>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        
+        </div>
+      
+      </div>
+    </section>
+    <!--================= BLOG ==================-->
+    <section class="blog" id="blog">
+      <div class="blog-container container">
+        <div class="blog-text">
+          <h3 class="blog-title title">Recent Blog</h3>
+          <a href="#" class="blog-link">View All Posts</a>
+        </div>
+
+        <div class="blog-cards grid">
+          <!-- Card 1 -->
+          <article class="blog-content">
+            <div class="blog-image">
+              <img src="images/blog-img1.jpg" alt="furniture" class="blog-img">
+            </div>
+
+            <div class="blog-description">
+              <span class="blog-subtitle">First Time Home Owner Ideas
+              </span>
+              <span class="blog-author">by Nana Ama on Nov 18th, 2022</span>
+            </div>
+          </article>
+          <!-- Card 2 -->
+          <article class="blog-content">
+            <div class="blog-image">
+              <img src="images/blog-img2.jpg" alt="furniture" class="blog-img">
+            </div>
+
+            <div class="blog-description">
+              <span class="blog-subtitle">First Time Home Owner Ideas
+              </span>
+              <span class="blog-author">by Nana Ama on Nov 18th, 2022</span>
+            </div>
+          </article>
+          <!-- Card 3 -->
+          <article class="blog-content">
+            <div class="blog-image">
+              <img src="images/blog-img3.jpg" alt="furniture" class="blog-img">
+            </div>
+
+            <div class="blog-description">
+              <span class="blog-subtitle">First Time Home Owner Ideas
+              </span>
+              <span class="blog-author">by Nana Ama on Nov 18th, 2022</span>
+            </div>
+          </article>
+
+        </div>
+
+
+      </div>
+    </section>
+    <!--================ CONTACT ================-->
+    <section class="contact" id="contact">
+      <div class="contact-container container grid">
+
+        <div class="contact-image grid">
+          <img src="images/contact-img.png" alt="sofa" class="contact-img"> 
+        </div>
+
+        <div class="contact-subscrite">
+          <div class="contact-content">
+            <i class="ri-mail-line"></i> Subscribe to Newsletter
+          </div>
+          
+          <form action="" class="contacnt-form">
+
+            <input type="text" placeholder="Enter your name" class="contact-input">
+            <input type="email" placeholder="Enter your e-mail" class="contact-input">
+
+            <button class="contact-button">
+              <i class="ri-send-plane-fill"></i>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <!--================ FOOTER =================-->
+  <footer class="footer">
+    <div class="footer-container container grid">
+
+      <div class="footer-content grid">
+        <div>
+          <a href="#" class="footer-logo">Furni.</a>
+          <p class="footer-description">
+            Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done. the this is a long  post for the text.`This small text has to be place here, since this is 
+          </p>
+
+          <div class="footer-social">
+            <a href="https://www.facebook.com/" class="footer-social-link">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="footer-social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://twitter.com/" class="footer-social-link">
+              <i class="ri-twitter-fill"></i>
+            </a>
+            <a href="https://www.linkedin.com/" class="footer-social-link">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="footer-data grid">
+          <!-- Group 1 -->
+          <div>
+            <ul class="footer-links">
+              <li>
+                <a href="#" class="footer-link">About us</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Services</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Group 2 -->
+          <div>
+            <ul class="footer-links">
+              <li>
+                <a href="#" class="footer-link">Support</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Knowledge base</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Live chat</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Group 3 -->
+          <div>
+            <ul class="footer-links">
+              <li>
+                <a href="#" class="footer-link">Jobs</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Our team</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Leadership</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Group 4 -->
+          <div>
+            <ul class="footer-links">
+              <li>
+                <a href="#" class="footer-link">Nordic Chair</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Kruzo Aero</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Ergonomic</a>
+              </li>
+            </ul>
+          </div>
+        
+        </div>
+      </div>
+
+      <div class="footer-group">
+
+        <div class="footer-group-left">
+          <span class="footer-copy">
+            &#169; Copyright 2022 degraft87@gmail.com. All Rights Reserved.
+          </span>
+        </div>
+
+        <div class="footer-group-right">
+          <span class="footer-term">
+            Terms & Conditions
+          </span>
+          <span class="footer-policy">
+            Privacy Policy
+          </span>
+        </div>
+        
+      </div>
+      
+    </div>
+  </footer>
+  <!--============= SCROLL UP =================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+
+  <!-- Scroll Reveal -->
+  <script src="js/scrollreveal.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
